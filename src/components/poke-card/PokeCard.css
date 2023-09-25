@@ -1,0 +1,75 @@
+.poke-card{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, black, black, black);
+}
+
+.poke-card .white-cover{
+    background-color: rgb(250, 250, 250);
+    height: calc(100% - 26px);
+    width: calc(100% - 26px);
+    border-radius: 6px;
+    margin: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s ease;
+    justify-content: center;
+}
+
+.poke-card .white-cover:hover{
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+.poke-card .white-cover:active{
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+
+.poke-card h1{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    align-self: flex-start;
+}
+
+.poke-card h2{
+    align-self: flex-start;
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(169, 169, 169);
+}
+
+.poke-card img{
+    width: 80%;
+    text-align: center;
+}
+
+:root{
+	--normal: #A8A77A;
+	--fire: #EE8130;
+	--water: #6390F0;
+	--electric: #F7D02C;
+	--grass: #7AC74C;
+	--ice: #96D9D6;
+	--fighting: #C22E28;
+	--poison: #A33EA1;
+	--ground: #E2BF65;
+	--flying: #A98FF3;
+	--psychic: #F95587;
+	--bug: #A6B91A;
+	--rock: #B6A136;
+	--ghost: #735797;
+	--dragon: #6F35FC;
+	--dark: #705746;
+	--steel: #B7B7CE;
+	--fairy: #D685AD;
+}
